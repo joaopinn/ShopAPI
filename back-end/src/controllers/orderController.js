@@ -14,4 +14,8 @@ async function cancelOrder(req,res){
     
 }
 
-module.exports = {getAllOrders, getOrder, createOrder, cancelOrder};
+async function statusOrder ( req, res ){
+
+}
+
+module.exports = {getAllOrders, getOrder, createOrder, cancelOrder, statusOrder};
